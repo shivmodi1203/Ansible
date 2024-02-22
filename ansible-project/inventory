@@ -1,0 +1,8 @@
+db1 ansible_host=192.168.233.148 ansible_connection=ssh ansible_user=shiv ansible_ssh_pass=shiv@123
+db2 ansible_host=192.168.233.136 ansible_connection=ssh ansible_user=shiv ansible_ssh_pass=shiv@123
+
+[dbs]
+db1
+db2
+#192.168.15.118 ansible_user=shiv ansible_connection=ssh  ansible_ssh_private_key=~/.ssh/id_rsa
+#192.168.15.119 ansible_user=shiv ansible_connection=ssh  ansible_ssh_private_key=~/.ssh/id_rsa
